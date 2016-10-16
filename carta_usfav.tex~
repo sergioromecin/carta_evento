@@ -1,0 +1,69 @@
+% Plantilla para una carta en LaTeX, en español.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[12pt]{letter}
+
+% Esto es para poder escribir acentos directamente:
+\usepackage[latin1]{inputenc}
+% Esto es para que el LaTeX sepa que la carta está en español:
+\usepackage[spanish]{babel}
+
+%\address{Nombres\\
+%  Universidad\\
+%  Calle \\
+%  La Paz - Bolivia}
+%
+
+\newcommand\usfa{Universidad Privada San Francisco de As\'is } 
+
+\signature{Sergio Fernando Romecín García\\
+6768083 LP.\\
+}
+
+\begin{document}
+
+\begin{letter}{
+  Señor\\
+  Ing. Oscar Quiroga\\
+  Carrera de Ingeniería de Sistemas\\
+  USFA\\
+  Presente.-}
+
+\opening{Co-organizar}
+
+A nombre de la comunidad Drupal en La Paz-Bolivia, le hacemos llegar
+nuestro más atento y cordial saludo, así como hacerle presente la
+siguiente solicitud de colaboración.
+
+Debido a que la prestigiosa \usfa es una Institución dedicada a formar
+minorías creativas capaces de contribuir al desarrollo humano
+sustentable de la región y del país, le hacemos extensiva la
+invitación a co-organizar el evento a realizarse en sus instalaciones,
+el proximo XX de Noviembre del 2016, a partir de las XX:XX horas hasta
+las 18.30 horas, en un evento organizado por los miembros de la
+comunidad Drupal en Bolivia.
+
+Como nos puede apoyar la \usfa, bridando la infraestructura para
+realizar las actividades, tales como:
+
+\begin{itemize}
+\item Un auditorio, para las presentaciones principales (keynotes).
+\item Un laboratorio con computadoras con capacidad para 10 personas, para los talleres. ???????
+\end{itemize}
+
+Además de cubrir los costos de refrigerio para los expositores ????
+
+Con el evento, esperamos dar a conocer a Drupal y el Software Libre
+como una alternativa real, viable y sostenible para desempeñar
+actividades económicas total ó parcialmente en toda la gama de las
+tecnologías de la información, tanto para profesionales dedicados al
+desarrollo del software, como para empresas e instituciones que buscan
+el máximo aprovechamiento de la tecnología existente a un menor costo.
+Agradeciendo la atención prestada. Adjuntamos más detalles sobre el
+evento a organizarse como de la comunidad drupal en Bolivia.
+
+\closing{Atentamente,}
+
+\end{letter}
+\end{document}
